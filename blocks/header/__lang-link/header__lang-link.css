@@ -8,7 +8,8 @@
 
   text-align: right;
   text-decoration-line: none;
+}
 
+.header__lang-link:visited {
   color: #FFFFFF;
-
 }
