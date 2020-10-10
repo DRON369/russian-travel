@@ -1,9 +1,25 @@
 .cover__overlay {
-
   width: 1184px;
   height: 740px;
+  transition: opacity 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
 
+.cover__overlay:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-  position: absolute;
+}
+
+.cover__overlay:hover:before {
+  opacity: 0.8;
 }

@@ -8,8 +8,13 @@
 
   text-align: right;
   text-decoration-line: none;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .header__lang-link:visited {
   color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
