@@ -2,10 +2,20 @@
   width: 100%;
 }
 
-
 @media screen and (max-width: 1279px) {
   .photo-grid__item {
     min-width: 284px;
-    min-height: 213px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid__item {
+    min-width: 225px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    min-width: 352px;
   }
 }

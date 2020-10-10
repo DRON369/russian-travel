@@ -10,3 +10,9 @@
   position: relative;
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: auto auto 88px auto;
+  }
+}
