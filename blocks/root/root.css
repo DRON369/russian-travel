@@ -14,3 +14,9 @@
   -moz-text-size-adjust: 100%;
   text-rendering: auto;
 }
+
+@media screen and (max-width: 1279px) {
+  .root {
+      width: calc(100% - 48px * 2);
+  }
+}
