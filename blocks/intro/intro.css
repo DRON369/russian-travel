@@ -11,3 +11,10 @@
       margin: 0 0 0 48px;
   }
 }
+
+@media screen and (max-width: 319px) {
+  .intro {
+      margin: 0 16px;
+      padding-top: 39px;
+  }
+}

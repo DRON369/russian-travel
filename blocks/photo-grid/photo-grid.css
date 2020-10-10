@@ -26,3 +26,13 @@
   }
 
 }
+
+@media screen and (max-width:319px) {
+
+  .photo-grid {
+    gap: 12px;
+    margin: 64px 16px;
+    grid-template-columns: 1fr;
+  }
+
+}

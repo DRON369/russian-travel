@@ -4,4 +4,13 @@
   align-items: center;
   box-sizing: border-box;
   padding: 28px 48px 0;
+
+}
+
+
+@media screen and (max-width: 319px) {
+  .header {
+    height: 42px;
+    padding: 16px 16px 0;
+  }
 }

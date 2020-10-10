@@ -16,3 +16,11 @@
     margin: auto auto 88px auto;
   }
 }
+
+@media screen and (max-width: 319px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+    margin: auto auto 64px auto;
+  }
+}

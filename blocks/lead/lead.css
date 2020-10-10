@@ -8,3 +8,8 @@
   box-sizing: content-box;
 }
 
+@media screen and (max-width: 319px) {
+  .lead {
+      padding-bottom: 39px;
+  }
+}
