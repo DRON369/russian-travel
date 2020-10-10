@@ -9,6 +9,7 @@
   text-align: right;
   text-decoration-line: none;
   transition: opacity 0.4s ease-in-out;
+  color: #FFFFFF;
 }
 
 .header__lang-link:visited {
