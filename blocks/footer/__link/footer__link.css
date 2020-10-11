@@ -9,7 +9,7 @@
   transition: opacity 0.4s ease-in-out;
 }
 
-.footer__link:last-of-type {
+.footer__link:last-child{
   margin-right: 0px;
 }
 
