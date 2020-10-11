@@ -2,14 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
+  box-sizing: content-box;
   padding: 28px 48px 0;
 }
 
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 768px) {
   .header {
-    height: 42px;
+    min-height: 52px;
+    padding: 24px 16px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    min-height: 42px;
     padding: 16px 16px 0;
   }
 }
