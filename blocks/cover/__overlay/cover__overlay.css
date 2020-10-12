@@ -23,3 +23,34 @@
 .cover__overlay:hover:before {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    max-width: 1024px;
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    
+    max-width: 768px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__overlay {
+    max-width: 640px;
+    max-height: 320px;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__overlay {
+    max-width: 320px;
+    max-height: 200px;
+
+  }
+}

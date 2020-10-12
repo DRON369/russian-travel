@@ -10,20 +10,17 @@
 @media screen and (max-width: 768px) {
   .place__description{
     font-size: 16px;
-    line-height: 29px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .place__description {
-    font-size: 16px;
     line-height: 26px;
   }
 }
 
+
 @media screen and (max-width: 600px) {
   .place__description {
     margin: 32px 16px 0 16px;
+    font-size: 16px;
+    line-height: 26px;
+    width: calc(100% - 16px*2);
   }
 
 
